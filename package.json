@@ -1,0 +1,22 @@
+{
+  "name": "dw-validate",
+  "version": "1.0.0",
+  "description": "a form validate tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cendawei/dw-validate.git"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "cendawei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cendawei/dw-validate/issues"
+  },
+  "homepage": "https://github.com/cendawei/dw-validate#readme"
+}
