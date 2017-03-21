@@ -6,7 +6,7 @@
                 },
                 isEmptyArray: function(val){
                         val = val || [];
-                        return !value.length;
+                        return !val.length;
                 },
                 isNumber: function(val){
                         val = val || '';
@@ -25,6 +25,5 @@
                         return /^(?:(?:0\d{2,3}[\-]?[1-9]\d{6,7})|(?:[48]00[\-]?[1-9]\d{6}))$/.test(val);
                 }
         }
-        window.dwv = validate;
         module.exports = validate;
 })()
